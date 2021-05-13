@@ -16,6 +16,7 @@ from keras.layers import Dense
 from keras.callbacks import History
 
 ##READING IN THE DATASET AND FORMATTING IT FOR DATA PREPROCESSING
+#Edit to ensure that the current path is shown
 dataset = pd.read_csv('C:\\Users\\abiga\\Documents\\University Of Lincoln\\Third Year\\Project\\Phishing Classification\\dataset_small.csv').values
 #dataset = pd.read_csv('dataset_small.csv').values
 data = dataset
